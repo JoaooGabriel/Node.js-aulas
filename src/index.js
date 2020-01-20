@@ -1,10 +1,10 @@
 const express = require('express'); //Importando a blibioteca express
-const mongoose =require('mongoose');
-const routes = require('./routes')
+const mongoose = require('mongoose');
+const routes = require('./routes');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://joaog15:gabrielcaetano15@cluster0-iy1dd.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://joaog15:gabrielcaetano15@cluster0-iy1dd.mongodb.net/week10?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
